@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Aplikacja {
  private static ArrayList<String> notatki = new ArrayList<String>();
  public static void main(String[] args) {
- Scanner scanner = new Scanner(System.in);
+ Scanner scanner = new Scanner(System.in); //pobranie liczby od użytkownika
  int wybor = 0;
  while (wybor != 5) {
- System.out.println("Wybierz opcję:");
+ System.out.println("Wybierz opcję:"); //wyświetlenie dostępnych opcji
  System.out.println("1. Dodaj notatkę");
  System.out.println("2. Wyświetl notatki");
  System.out.println("3. Usuń notatkę");
